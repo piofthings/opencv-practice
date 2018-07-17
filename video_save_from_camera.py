@@ -1,9 +1,12 @@
+#!/usr/bin/env python3
+
 import numpy as np
 import cv2 as cv
+
 cap = cv.VideoCapture(0)
 # Define the codec and create VideoWriter object
-fourcc = cv.VideoWriter_fourcc(*'X264')
-out = cv.VideoWriter('/home/pi/Pictures/recording/output.mkv',fourcc, 20.0, (640,480))
+fourcc = cv.VideoWriter_fourcc(*'XVID')
+out = cv.VideoWriter('/home/pi/Pictures/recording/red-ball.avi',fourcc, 20.0, (640,480))
 while(cap.isOpened()):
     ret, frame = cap.read()
     if ret==True:

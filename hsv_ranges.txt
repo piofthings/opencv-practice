@@ -1,0 +1,15 @@
+Blue  :
+Lower : [105,  84,  80]
+Higher: [129, 255, 255] 
+
+Green : 
+Lower : [ 49, 115,  70]
+Higher: [ 98, 237, 255]
+
+Yellow:
+Lower : [ 20,  91, 126]
+Higher: [ 43, 228, 255]
+
+Red:
+Lower : [  0, 125, 102]
+Higher: [  8, 255, 255]
